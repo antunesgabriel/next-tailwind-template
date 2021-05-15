@@ -1,18 +1,11 @@
-import Link from "next/link";
-
-import Layout from "@app/components/layout.component";
+import LayoutComponent from "@app/components/layout/layout-component";
 
 const IndexPage = () => (
-  <Layout title="Home">
+  <LayoutComponent title="Home">
     <div className="h-full flex justify-center items-center">
       <h1 className="text-brand-main font-bold text-2xl">Hello Next.js 👋</h1>
-      <p>
-        <Link href="/about">
-          <a>About</a>
-        </Link>
-      </p>
     </div>
-  </Layout>
+  </LayoutComponent>
 );
 
 export default IndexPage;
