@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import Layout from "@app/shared/components/layout.component";
+import Layout from "@app/components/layout.component";
 
 const IndexPage = () => (
   <Layout title="Home">
